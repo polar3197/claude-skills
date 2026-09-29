@@ -1,0 +1,15 @@
+{
+  "name": "polar3197-skills",
+  "description": "Agent skills by polar3197 for Claude Code and other SKILL.md-compatible agents",
+  "owner": {
+    "name": "polar3197",
+    "url": "https://github.com/polar3197"
+  },
+  "plugins": [
+    {
+      "name": "dag-pr-review",
+      "source": "./plugins/dag-pr-review",
+      "description": "Multi-agent PR review: plans a dependency graph of review tasks, runs them as parallel subagents in waves, adversarially verifies every finding"
+    }
+  ]
+}

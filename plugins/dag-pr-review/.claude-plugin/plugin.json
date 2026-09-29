@@ -1,0 +1,13 @@
+{
+  "name": "dag-pr-review",
+  "version": "0.1.0",
+  "description": "Multi-agent PR review: plans a dependency graph of review tasks (intent, clusters, file leaves, security/tests/performance lenses), runs ready tasks as parallel subagents, splits oversized tasks at runtime, and adversarially verifies every finding.",
+  "author": {
+    "name": "polar3197",
+    "url": "https://github.com/polar3197"
+  },
+  "homepage": "https://github.com/polar3197/claude-skills",
+  "repository": "https://github.com/polar3197/claude-skills",
+  "license": "MIT",
+  "keywords": ["code-review", "pull-request", "subagents", "dag", "parallel"]
+}
